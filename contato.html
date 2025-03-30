@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Roberwando - Contato</title>
+</head>
+
+<body>
+    <header>
+        <h1>Dr. Roberwando</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a> -
+        <a href="curriculo.html">Currículo</a> -
+        <a href="especialidades.html">Especialidades</a> -
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <h1>Contato</h1>
+    <p>Agende sua consulta. Por favor indique sua preferência por dia e horário. Após Checarmos a disponibilidade
+        entraremos em contato com você para confirmação.</p><br>
+    <main>
+        <form method="get">
+            <fieldset>
+                <legend>Dados do paciente</legend>
+                Nome: <input type="text" name="nome"><br>
+                E-mail: <input type="email" name="email"><br>
+                Telefone: <input type="text" name="telefone"><br>
+                Consultorio de preferência:
+                <select name="consultorio">
+                    <option value=""></option>
+                    <option value="1">Consultorio 1</option>
+                    <option value="2">Consultorio 2</option>
+                    <option value="3">Consultorio 3</option>
+                    <option value="4">Consultorio 4</option>
+                </select><br>
+                Data da consulta: <input type="date" name="data"><br>
+                Como chegou ao nosso site?<br>
+                <input type="checkbox" name="pergunta" value="convidado">Convidado<br>
+                <input type="checkbox" name="pergunta" value="internet">Internet<br>
+                <input type="checkbox" name="pergunta" value="amigos">Amigos<br>
+                Mensagem:<br>
+                <textarea name="msg" rows="5" cols="40"></textarea>
+                <br>
+                <button type="submit">Enviar</button>
+            </fieldset>
+    </main>
+
+    <footer>Dr. Roberwando - 2025</footer>
+</body>
+
+</html>
